@@ -1,0 +1,48 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;0,600;0,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/Batman-Logo.svg" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-image">
+        <img
+          src="images/pexels-david-bartus-963278.jpg"
+          alt="image not found"
+        />
+      </div>
+      <form action="home.html">
+        <img
+          class="login-logo"
+          src="images/Batman-Logo.svg"
+          alt="image not found"
+        />
+        <div class="text">
+          <h1>Welcome Back</h1>
+          <p>please enter your details</p>
+        </div>
+        <input type="text" placeholder="Username" id="name" name="name" />
+        <p id="error1"></p>
+        <input type="text" placeholder="Email" id="email" name="email" />
+        <p id="error2"></p>
+        <input type="submit" id="btn" />
+        <div class="newacc">
+          <p>Don't have an account ?<a href="#"> Sign up for free</a></p>
+        </div>
+      </form>
+    </div>
+    <script src="JS/login.js"></script>
+  </body>
+</html>
